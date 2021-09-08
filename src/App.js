@@ -14,7 +14,7 @@ export default function App() {
             justifyContent: "center",
           }}
         >
-          <Text style={{ fontSize: 45 }}>Waleed Baig</Text>
+          <Text style={{ fontSize: 45 }}>Your Name Here</Text>
         </View>
         <View
           style={{
@@ -23,7 +23,7 @@ export default function App() {
             alignItems: "center",
           }}
         >
-          <Text>0334 3954568</Text>
+          <Text>+12345 6789101</Text>
           <Text>devwaleed@gmail.com</Text>
         </View>
       </View>
