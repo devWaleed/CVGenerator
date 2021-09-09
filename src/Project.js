@@ -1,25 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { View, Text } from "react-native";
-
-export default function JobCard({ title, description, projects, duration }) {
-  return (
-    <View style={{ marginVertical: 5 }}>
-      <Text style={{ fontWeight: "bold", fontSize: 12 }}>{title}</Text>
-      <Text style={{ marginTop: 5 }}>{duration}</Text>
-      <Text style={{ marginTop: 5 }}>{description}</Text>
-      {/* {projects?.length > 0 && (
-        <View style={{ marginTop: 20, marginLeft: 10 }}>
-          <Text style={{ fontWeight: "bold" }}>Projects</Text>
-          {projects?.map((item, index) => (
-            <View style={{ marginTop: 10, flexDirection: "row" }}>
-              <Project key={index} {...item} />
-            </View>
-          ))}
-        </View>
-      )} */}
-    </View>
-  );
-}
 
 export function Project({ name, link, description, skills = [] }) {
   return (
