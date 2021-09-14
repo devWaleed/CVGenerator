@@ -1,15 +1,15 @@
-import { css } from 'emotion'
+import { css } from "@emotion/css";
 
 export default {
   container: css`
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.05em;
     * {
       box-sizing: border-box;
-  
+
       margin: 0;
       padding: 0;
       border: 0;
@@ -18,7 +18,7 @@ export default {
       vertical-align: baseline;
     }
     p {
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
   `,
   timeline: css`
@@ -27,11 +27,11 @@ export default {
     list-style: none;
     &:before {
       background-color: black;
-      content: '';
+      content: "";
       margin-left: -1px;
       position: absolute;
       top: 0;
-      left: 2em;
+      left: 0.7em;
       width: 2px;
       height: 100%;
     }
@@ -47,15 +47,15 @@ export default {
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
     top: 0;
-    left: 2em;
-    width: 1em;
-    height: 1em;
+    left: 1em;
+    width: 0.5em;
+    height: 0.5em;
   `,
   body: css`
     padding: 2em 2em 0 2em;
     position: relative;
     top: -1.875em;
-    left: 2em;
+    left: 1em;
     width: 95%;
     h3 {
       font-size: 1.75em;
@@ -81,4 +81,4 @@ export default {
       padding-bottom: 1.2em;
     }
   `,
-}
+};

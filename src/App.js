@@ -10,7 +10,7 @@ export default function App() {
       <View style={{ flexDirection: "row", paddingVertical: 20 }}>
         <View
           style={{
-            flex: 0.7,
+            flex: 0.5,
             justifyContent: "center",
           }}
         >
@@ -18,15 +18,15 @@ export default function App() {
         </View>
         <View
           style={{
-            flex: 0.3,
+            flex: 0.5,
             justifyContent: "center",
             alignItems: "flex-end",
           }}
         >
-          <Text>0334 3954568</Text>
-          <Text>devwaleed@gmail.com</Text>
+          <Text style={{ fontSize: 14 }}>(+92) 334 3954568</Text>
+          <Text style={{ fontSize: 14 }}>devwaleed@gmail.com</Text>
           <a
-            style={{ color: "#000" }}
+            style={{ color: "#000", fontSize: 14 }}
             href="https://www.linkedin.com/in/waleed-baig-992620bb"
           >
             in/waleed-baig-992620bb
@@ -34,7 +34,7 @@ export default function App() {
         </View>
       </View>
       <View>
-        <Text>
+        <Text style={{ marginVertical: 10 }}>
           Experienced individual with a background of startup team management
           and over 5 years of full stack software development. Seeking to
           leverage my leadership expertise in order to maximize development
@@ -54,7 +54,12 @@ export default function App() {
               {item.organization}
             </Text>
             {item.roles.map((item2, index) => (
-              <View style={{ marginLeft: 10, marginTop: 0 }}>
+              <View
+                style={{
+                  marginLeft: 10,
+                  marginTop: 0,
+                }}
+              >
                 <Role
                   key={index}
                   title={item2.title}
@@ -100,6 +105,32 @@ export default function App() {
           </Text>
           <Text style={{}}>Bachelor of Science (BS), Computer Science</Text>
           <Text>2014 - 2020</Text>
+        </View>
+      </View>
+      <View>
+        <Text style={{ fontSize: 20, fontWeight: "bold", marginTop: 10 }}>
+          Honors & Awards
+        </Text>
+        <View style={{ marginLeft: 10 }}>
+          <ul style={{ padding: 0, paddingLeft: 20 }}>
+            <li>
+              <Text>
+                Director's Honor Award - Director Computer Science Department,
+                PAF KIET
+              </Text>
+            </li>
+            <li>
+              <Text>
+                Best Performance Award - Fhahroz Iqbal, CEO Avolox Pvt Ltd
+              </Text>
+            </li>
+            <li>
+              <Text>
+                Best project award for OOP & DBMS - Director Computer Science
+                department, PAF KIET
+              </Text>
+            </li>
+          </ul>
         </View>
       </View>
     </View>

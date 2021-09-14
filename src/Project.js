@@ -11,33 +11,32 @@ export function Project({ name, link, description, skills = [] }) {
           textDecoration: "none",
           color: "#000",
           fontSize: 16,
-          fontFamily: "Georgia",
         }}
         href={link}
       >
         {name}
       </a>
-      <Text style={{}}>{description}</Text>
-      <View style={{ flexDirection: "row", marginTop: 5 }}>
+      <Text style={{ marginVertical: 5 }}>{description}</Text>
+      {/* <View style={{ flexDirection: "row", marginTop: 5 }}>
         {skills.map((item, index) => (
           <Text
             style={{
               paddingVertical: 3,
               paddingHorizontal: 7,
               borderRadius: 5,
-              backgroundColor: "orange",
-              color: "#000",
+              backgroundColor: "rgba(10, 102, 194, 1)",
+              color: "#fff",
               marginRight: 5,
               fontSize: 11,
               fontStyle: "italic",
-              fontWeight: "600",
+              fontWeight: "bold",
             }}
             key={index}
           >
             {item}
           </Text>
         ))}
-      </View>
+      </View> */}
     </View>
   );
 }

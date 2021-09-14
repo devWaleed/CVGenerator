@@ -17,10 +17,10 @@ export default {
           duration: "Feb 2020 - Sep 2020 - 8 mos",
           projects: [
             {
-              name: "JazzCash - Money Transfer, Mobile Load & Payments - Apps on Google Play",
+              name: "JazzCash - Money Transfer, Mobile Load & Payments",
               link: "https://play.google.com/store/apps/details?id=com.techlogix.mobilinkcustomer&hl=en_US&gl=US",
               description:
-                "JazzCash is Pakistan’s #1 mobile account trusted by millions of Pakistanis. Download JazzCash app to transfer money to anyone anywhere, pay utility bills such as electricity, internet, gas & water, \n get mobile recharge and make payments to hundreds of companies and institutes all across Pakistan in just a few taps.",
+                "JazzCash is Pakistan’s #1 mobile account trusted by millions of Pakistanis. It has over 10+ miilion downloads on Google Playstore.",
               skills: ["C# .NET", "Xamarin Forms", "API Integration"],
             },
           ],
@@ -38,10 +38,10 @@ export default {
 
           projects: [
             {
-              name: "iTecknologi - App on Google Play",
+              name: "iTecknologi - Smart Vehicle Tracking",
               link: "https://play.google.com/store/apps/details?id=com.avolox.iteck&hl=en_US&gl=US",
               description:
-                "iTecknologi Group is an innovation driven business group focuses on bringing leading technologies to rapidly developing customer base in Pakistan. The group consists of 6 member companies operating in six countries",
+                "Developed multiple applications in Vehicle tracking domain for itecknologi company",
               skills: [
                 "C# .NET",
                 "ASP.NET Core Web API",
@@ -52,10 +52,10 @@ export default {
               ],
             },
             {
-              name: "Salaam Takaful - App on Google Play",
+              name: "Salaam Takaful - Smart VOIP based takaful application",
               link: "https://play.google.com/store/apps/details?id=com.avolox.salaamtakaful&hl=en_US&gl=US",
               description:
-                "Does keeping track of your health feel unnecessary with life being so complicated and busy? Gone are the days! Now you can stay at the top of your health activities. Salaam Takaful Limited’s “Salaam App,” offers you some of the world's best hi-tech...                ",
+                "Developed VOIP based application for Salaam Takaful which had features like digital doctor consultations, etc",
               skills: [
                 "C# .NET",
                 "ASP.NET Core Web API",
@@ -64,10 +64,23 @@ export default {
               ],
             },
             {
+              name: "UBL Insurers - Mobile application",
+              link: "https://play.google.com/store/apps/details?id=com.avolox.ublinsurers1",
+              description:
+                "Developed mobile application for UBL Insurers. A user friendly design to monitor their policies, order new policies, claims, and much more.",
+              skills: [
+                "C# .NET",
+                "ASP.NET Core Web API",
+                "Vue.js",
+                "Google Maps",
+                "Cordova",
+              ],
+            },
+            {
               name: "iTecknologi | Mobile Daily Report",
               link: "http://iteck.pk/d/rndmlnk1",
               description:
-                "Does keeping track of your health feel unnecessary with life being so complicated and busy? Gone are the days! Now you can stay at the top of your health activities. Salaam Takaful Limited’s “Salaam App,” offers you some of the world's best hi-tech...                ",
+                "iTecknologi Web based daily report system, using Vue.js and ASP.NET Core Web API",
               skills: [
                 "C# .NET",
                 "ASP.NET Core Web API",
@@ -97,19 +110,6 @@ export default {
                 "Vue.js",
                 "Google Maps",
                 "Lots of Maths",
-              ],
-            },
-            {
-              name: "UBL Insurers - Mobile application",
-              link: "https://play.google.com/store/apps/details?id=com.avolox.ublinsurers1",
-              description:
-                "Developed mobile application for UBL Insurers. A user friendly design to monitor their policies, order new policies, claims, and much more.",
-              skills: [
-                "C# .NET",
-                "ASP.NET Core Web API",
-                "Vue.js",
-                "Google Maps",
-                "Cordova",
               ],
             },
           ],
