@@ -10,7 +10,7 @@ export function Project({ name, link, description, skills = [] }) {
           fontWeight: "bold",
           textDecoration: "none",
           color: "#000",
-          fontSize: 15,
+          fontSize: 16,
           fontFamily: "Georgia",
         }}
         href={link}
@@ -25,12 +25,12 @@ export function Project({ name, link, description, skills = [] }) {
               paddingVertical: 3,
               paddingHorizontal: 7,
               borderRadius: 5,
-              backgroundColor: "#141414",
-              color: "#fff",
+              backgroundColor: "orange",
+              color: "#000",
               marginRight: 5,
-              fontSize: 10,
+              fontSize: 11,
               fontStyle: "italic",
-              fontWeight: "bold",
+              fontWeight: "600",
             }}
             key={index}
           >

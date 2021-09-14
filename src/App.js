@@ -5,18 +5,12 @@ import Role from "./Role";
 import data from "./data";
 
 export default function App() {
-  const [jobs, setJobs] = useState([]);
-
-  useEffect(() => {
-    setJobs(data);
-  }, []);
-
   return (
     <View style={{ marginHorizontal: "10%" }}>
       <View style={{ flexDirection: "row", paddingVertical: 20 }}>
         <View
           style={{
-            flex: 0.8,
+            flex: 0.7,
             justifyContent: "center",
           }}
         >
@@ -24,13 +18,19 @@ export default function App() {
         </View>
         <View
           style={{
-            flex: 0.2,
+            flex: 0.3,
             justifyContent: "center",
-            alignItems: "center",
+            alignItems: "flex-end",
           }}
         >
           <Text>0334 3954568</Text>
           <Text>devwaleed@gmail.com</Text>
+          <a
+            style={{ color: "#000" }}
+            href="https://www.linkedin.com/in/waleed-baig-992620bb"
+          >
+            in/waleed-baig-992620bb
+          </a>
         </View>
       </View>
       <View>
@@ -46,8 +46,8 @@ export default function App() {
         <Text style={{ fontSize: 20, fontWeight: "bold", marginTop: 10 }}>
           Experience
         </Text>
-        {jobs.map((item, index) => (
-          <View style={{ marginTop: 10 }}>
+        {data.jobs.map((item, index) => (
+          <View style={{ marginTop: 10, marginLeft: 10 }}>
             <Text
               style={{ marginVertical: 5, fontSize: 14, fontWeight: "bold" }}
             >
@@ -71,7 +71,7 @@ export default function App() {
         <Text style={{ fontSize: 20, fontWeight: "bold", marginTop: 10 }}>
           Projects
         </Text>
-        {jobs.map((item, index) => (
+        {data.jobs.map((item, index) => (
           <View style={{ marginTop: 10 }}>
             {item.roles.map((item2, index) => (
               <View style={{ marginLeft: 10, marginTop: 0 }}>
@@ -89,6 +89,18 @@ export default function App() {
             ))}
           </View>
         ))}
+      </View>
+      <View>
+        <Text style={{ fontSize: 20, fontWeight: "bold", marginTop: 10 }}>
+          Education
+        </Text>
+        <View style={{ marginLeft: 10, marginTop: 10 }}>
+          <Text style={{ fontWeight: "bold" }}>
+            PAF - Karachi Institute of Economics and Technology
+          </Text>
+          <Text style={{}}>Bachelor of Science (BS), Computer Science</Text>
+          <Text>2014 - 2020</Text>
+        </View>
       </View>
     </View>
   );
