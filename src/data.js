@@ -1,5 +1,17 @@
-export default {
+const data = {
   jobs: [
+    {
+      organization: "Folio3",
+      roles: [
+        {
+          title: "Senior Software Engineer (React Native)",
+          description:
+            "Working as a senior software engineer (react-native) in Folio3 Pvt Ltd. Currently providing support for existing mobile applications and working on some new features",
+          duration: "Nov 2021 - Present - 7 mth",
+          projects: [],
+        },
+      ],
+    },
     {
       organization: "Aciano Technologies",
       roles: [
@@ -7,14 +19,14 @@ export default {
           title: "Team Lead Mobile Apps Division (React Native)",
           description:
             "Developed more than 5 applications including eCommerce, attendance applications, analytics app and more.",
-          duration: "Oct 2020 - Present - 1 yr",
+          duration: "Oct 2020 - Oct 2021 - 1 yr",
           projects: [],
         },
         {
           title: "Senior Software Engineer (JazzCash Mobile App division)",
           description:
             "Worked on Jazz Pakistan's mobile application JazzCash which has 10+ million downloads on Google Playstore",
-          duration: "Feb 2020 - Sep 2020 - 8 mos",
+          duration: "Feb 2020 - Sep 2020 - 8 mth",
           projects: [
             {
               name: "JazzCash - Money Transfer, Mobile Load & Payments",
@@ -34,7 +46,7 @@ export default {
           title: "Full Stack Team Lead (.NET, React, React Native)",
           description:
             "Worked on multiple vehicle tracking applications, VOIP based apps, analytics engines, etc",
-          duration: "Sep 2018 - Jan 2020 - 1 yr 5 mos",
+          duration: "Sep 2018 - Jan 2020 - 1 yr 5 mth",
 
           projects: [
             {
@@ -96,11 +108,11 @@ export default {
           title: "Full Stack Developer (.NET & Vue.js)",
           description:
             "Worked on some noticable mobile applications like UBL Insurers",
-          duration: "Feb 2018 - Aug 2018 - 7 mos",
+          duration: "Feb 2018 - Aug 2018 - 7 mth",
           projects: [
             {
               name: "Paperbucketmdb - Easy campaign management with analytics and AI",
-              link: "https://www.paperbucketmdb.com/",
+              link: "https://www.paperbucket.net/",
               description:
                 "Was part of the early development cycle and contributed to some major parts of the product.",
               skills: [
@@ -135,10 +147,12 @@ export default {
           title: "Full Stack Developer (.NET, PHP Laravel, Wordpress)",
           description:
             "I worked as a full stack developer, contributing to multiple applications in multiple domains.",
-          duration: "June 2016 - Jan 2017 - 7 mos",
+          duration: "June 2016 - Jan 2017 - 7 mth",
           projects: [],
         },
       ],
     },
   ],
 };
+
+export default data;
